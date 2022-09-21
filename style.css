@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+}
+
+.container1{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+}
+
+.container .content{
+   text-align: center;
+}
+
+.container .content h3{
+   font-size: 30px;
+   color:#333;
+}
+
+.container .content h3 span{
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   padding:0 15px;
+}
+
+.container .content h1{
+   font-size: 50px;
+   color:#333;
+}
+
+.container .content h1 span{
+   color:crimson;
+}
+
+.container .content p{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.container .content .btn{
+   display: inline-block;
+   padding:10px 30px;
+   font-size: 20px;
+   background: #333;
+   color:#fff;
+   margin:10px;
+   text-transform: capitalize;
+}
+
+.container .content .btn:hover{
+   background: crimson;
+}
+
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   background: #2196f3;;
+
+   
+}
+
+.form-container form{
+   padding:20px;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.1);
+   background-color: : pink;
+   text-align: center;
+   width: 500px;
+}
+
+.form-container form h3{
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   color:#333;
+}
+
+.form-container form input,
+.form-container form select{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+}
+
+.form-container form select option{
+   background: #fff;
+}
+
+.form-container form .form-btn{
+   background: #fbd0d9;
+   color:crimson;
+   text-transform: capitalize;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+   background: crimson;
+   color:#fff;
+}
+
+.form-container form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color:#333;
+}
+
+.form-container form p a{
+   color:crimson;
+}
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
+
+/*   yeta dekhi admin crud ko css ho*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+   --green:#27ae60;
+   --black:#333;
+   --white:#fff;
+   --bg-color:#eee;
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+   --border:.1rem solid var(--black);
+}
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:10px; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+
+body{
+   background-color: pink;
+}
+
+.btn{
+   display: block;
+   width: 100%;
+   cursor: pointer;
+   border-radius: .5rem;
+   margin-top: 1rem;
+   font-size: 1.7rem;
+   padding:1rem 3rem;
+   background: var(--green);
+   color:var(--white);
+   text-align: center;
+}
+
+.btn:hover{
+   background: var(--black);
+}
+
+.message{
+   display: block;
+   background: var(--bg-color);
+   padding:1.5rem 1rem;
+   font-size: 2rem;
+   color:var(--black);
+   margin-bottom: 2rem;
+   text-align: center;
+}
+
+.container{
+   max-width: 1200px;
+   padding:2rem;
+   margin:0 auto;
+}
+
+.admin-product-form-container.centered{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   
+}
+
+.admin-product-form-container form{
+   max-width: 50rem;
+   margin:0 auto;
+   padding:2rem;
+   border-radius: .5rem;
+  /* background: var(--bg-color);*/
+  background: #d0eafbb3;
+   }
+
+.admin-product-form-container form h3{
+   text-transform: uppercase;
+   color:var(--black);
+   margin-bottom: 1rem;
+   text-align: center;
+   font-size: 2.5rem;
+}
+
+.admin-product-form-container form .box{
+   width: 100%;
+   border-radius: .5rem;
+   padding:1.2rem 1.5rem;
+   font-size: 1.7rem;
+   margin:1rem 0;
+   background: var(--white);
+   text-transform: none;
+}
+
+.product-display{
+   margin:2rem 0;
+}
+
+.product-display .product-display-table{
+   width: 100%;
+   text-align: center;
+   background: #d0eafbb3;
+}
+
+.product-display .product-display-table thead{
+   background: var(--bg-color);
+}
+
+.product-display .product-display-table th{
+   padding:1rem;
+   font-size: 2rem;
+}
+
+
+.product-display .product-display-table td{
+   padding:1rem;
+   font-size: 2rem;
+   border-bottom: var(--border);
+}
+
+.product-display .product-display-table .btn:first-child{
+   margin-top: 0;
+}
+
+.product-display .product-display-table .btn:last-child{
+   background: crimson;
+}
+
+.product-display .product-display-table .btn:last-child:hover{
+   background: var(--black);
+}
+
+
+@media (max-width:991px){
+
+   html{
+      font-size: 55%;
+   }
+
+}
+
+@media (max-width:768px){
+
+   .product-display{
+      overflow-y:scroll;
+   }
+
+   .product-display .product-display-table{
+      width: 80rem;
+   }
+
+}
+
+@media (max-width:450px){
+
+   html{
+      font-size: 50%;
+   }
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+}
+
+
+.container .content{
+   text-align: center;
+}
+
+.container .content h3{
+   font-size: 30px;
+   color:#333;
+}
+
+.container .content h3 span{
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   padding:0 15px;
+}
+
+.container .content h1{
+   font-size: 50px;
+   color:#333;
+}
+
+.container .content h1 span{
+   color:crimson;
+}
+
+.container .content p{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.container .content .btn{
+   display: inline-block;
+   padding:10px 30px;
+   font-size: 20px;
+   background: #333;
+   color:#fff;
+   margin:10px;
+   text-transform: capitalize;
+}
+
+.container .content .btn:hover{
+   background: crimson;
+}
+
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   background: #2196f3;;
+
+   
+}
+
+.form-container form{
+   padding:20px;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.1);
+   background-color: : pink;
+   text-align: center;
+   width: 500px;
+}
+
+.form-container form h3{
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   color:#333;
+}
+
+.form-container form input,
+.form-container form select{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+}
+
+.form-container form select option{
+   background: #fff;
+}
+
+.form-container form .form-btn{
+   background: #fbd0d9;
+   color:crimson;
+   text-transform: capitalize;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+   background: crimson;
+   color:#fff;
+}
+
+.form-container form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color:#333;
+}
+
+.form-container form p a{
+   color:crimson;
+}
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
+
+
+
+
+/*  yo aarko naya ko lagi ho */
+
+/*   yeta dekhi admin crud ko css ho*/
+
+
+
+
+
